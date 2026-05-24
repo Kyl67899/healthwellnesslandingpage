@@ -11,7 +11,7 @@ import Testimonials from "@/component/testimonials";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="flex-1">
       <Hero />
       <Problem />
       <Solution />
