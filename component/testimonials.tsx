@@ -15,7 +15,7 @@ const testimonials = [
     name: "Marissa",
     role: "Office Manager",
     image:
-      "",
+      "../public/next.svg",
   },
   {
     quote:
@@ -23,7 +23,7 @@ const testimonials = [
     name: "Jake",
     role: "Designer",
     image:
-      "",
+      "../public/vercel.svg",
   },
   {
     quote:
@@ -31,7 +31,7 @@ const testimonials = [
     name: "Chris",
     role: "Writer",
     image:
-      "",
+      "../public/window.svg",
   },
 ];
 
@@ -40,13 +40,13 @@ const videos = [
     title: "How Ready Rocker Changed My Workday",
     duration: "1:42",
     image:
-      "",
+      "../public/file.svg",
   },
   {
     title: "My Back Pain Relief Experience",
     duration: "2:14",
     image:
-      "",
+      "../public/globe.svg",
   },
 ];
 
@@ -72,7 +72,7 @@ export default function Testimonials() {
             Trusted By 100,000+ Users
           </div>
 
-          <h2 className="mt-6 text-xl font-bold leading-tight tracking-tight md:text-7xl">
+          <h2 className="mt-6 font-bold max-text-3xl leading-tight tracking-tight text-white md:text-4xl">
             Why
             <span className="mx-3 bg-linear-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
               100,000+
@@ -129,6 +129,8 @@ export default function Testimonials() {
                 <Image
                   src={item.image}
                   alt={item.name}
+                  width={100}
+                  height={100}
                   className="h-14 w-14 rounded-full object-cover ring-2 ring-blue-400/30"
                 />
 
@@ -182,6 +184,8 @@ export default function Testimonials() {
                   <Image
                     src={video.image}
                     alt={video.title}
+                    width={100}
+                    height={100}
                     className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
                   />
 
