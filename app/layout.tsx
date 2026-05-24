@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter } from "next/font/google";
-import { cn } from "@/lib/utils";
 import Footer from "@/component/Footer";
 import Header from "@/component/navBar";
 import { Analytics } from "@vercel/analytics/next"
