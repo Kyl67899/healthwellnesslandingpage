@@ -19,13 +19,13 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn("", "font-sans", inter.variable)}
+      className=""
     >
       <body className="min-h-full flex flex-col">
         <Analytics />
         <Header />
         {children}
-      <Footer />
+        <Footer />
       </body>
     </html>
   );
