@@ -11,28 +11,28 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa6";
 
 const footerLinks = {
   Product: [
-    { label: "How It Works", href: "#" },
-    { label: "Benefits", href: "#" },
-    { label: "Testimonials", href: "#" },
-    { label: "Pricing", href: "#" },
+    { label: "How It Works", href: "/how-it-works" },
+    { label: "Benefits", href: "/benefits" },
+    { label: "Testimonials", href: "/testimonials" },
+    { label: "Pricing", href: "/pricing" },
   ],
   Company: [
-    { label: "About Us", href: "#" },
-    { label: "Contact", href: "#" },
-    { label: "Careers", href: "#" },
-    { label: "Affiliate Program", href: "#" },
+    { label: "About Us", href: "/about" },
+    { label: "Contact", href: "/contact" },
+    { label: "Careers", href: "/careers" },
+    { label: "Affiliate Program", href: "/affiliate" },
   ],
   Resources: [
-    { label: "Blog", href: "#" },
-    { label: "Help Center", href: "#" },
-    { label: "Shipping Policy", href: "#" },
-    { label: "Return Policy", href: "#" },
+    { label: "Blog", href: "/blog" },
+    { label: "Help Center", href: "/help" },
+    { label: "Shipping Policy", href: "/shipping" },
+    { label: "Return Policy", href: "/returns" },
   ],
   Legal: [
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Service", href: "#" },
-    { label: "Accessibility", href: "#" },
-    { label: "Cookie Policy", href: "#" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Accessibility", href: "/accessibility" },
+    { label: "Cookie Policy", href: "/cookie" },
   ],
 };
 
